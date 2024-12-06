@@ -1,0 +1,29 @@
+{
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "name": "hero-title",
+  "version": "1.0.0",
+  "description": "Animated hero title, word by word",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "author": "Ryan Wheatley",
+  "license": "ISC",
+  "peerDependencies": {
+    "motion": "^11.13.1",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "hero-title": "^1.0.0",
+    "motion": "^11.13.1",
+    "react": "^18.0.0",
+    "react-dom": "^18"
+  }
+}
